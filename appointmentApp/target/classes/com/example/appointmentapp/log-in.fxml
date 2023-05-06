@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Styles/log-in.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appointmentapp.Controllers.loginController">
+   <children>
+      <TextField fx:id="userTextField" layoutX="226.0" layoutY="143.0" />
+      <TextField fx:id="passTextField" layoutX="227.0" layoutY="210.0" />
+      <Label layoutX="227.0" layoutY="118.0" text="%Username" />
+      <Label layoutX="226.0" layoutY="192.0" text="%Password" />
+      <Button layoutX="227.0" layoutY="269.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="102.0" text="%LogIn" />
+      <Label layoutX="226.0" layoutY="63.0" prefHeight="20.0" prefWidth="82.0" text="%Welcome!">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" layoutX="197.0" layoutY="344.0">
+         <font>
+            <Font name="Leelawadee UI" size="13.0" />
+         </font></Label>
+      <VBox prefHeight="400.0" prefWidth="170.0" spacing="30.0" styleClass="vbox">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Untitled%20design.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="App" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="App" text="%AppointmentApp" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

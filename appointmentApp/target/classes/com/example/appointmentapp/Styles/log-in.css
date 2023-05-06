@@ -1,0 +1,11 @@
+.vbox {
+-fx-background-color: #2E6AA2;
+    -fx-alignment: center;
+}
+
+.App {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 12pt;
+}
+
+
